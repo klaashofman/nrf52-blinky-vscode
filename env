@@ -1,0 +1,2 @@
+export GNU_GCC="/Applications/ARM"
+export nRF_SDK="/Users/klaashofman/Development/Rimshot/sandbox/nrf52/nRF5_SDK_17.1.0_ddde560"
