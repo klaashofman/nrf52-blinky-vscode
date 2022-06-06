@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "nRF52840 DK",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:GNU_GCC}/arm-none-eabi/include",
+                "${env:nRF_SDK}/modules/**",
+                "${env:nRF_SDK}/components/**",
+                "${env:nRF_SDK}/components/libraries/**",
+            ],
+            "defines": [
+                "BOARD_PCA10056",
+                "CONFIG_GPIO_AS_PINRESET",
+                "INITIALIZE_USER_SECTIONS",
+                "FLOAT_ABI_HARD",
+                "NRF52",
+                "NRF52840_XXAA",
+                "NRF_SD_BLE_API_VERSION=6",
+                "S140",
+                "SOFTDEVICE_PRESENT",
+                "SWI_DISABLE0"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "${env:GNU_GCC}/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
