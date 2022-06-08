@@ -3,9 +3,6 @@
 		{
 			"path": ".."
 		},
-		{
-			"path": "../../../../../../../../opt/nordic/nRF5_SDK_17.1.0_ddde560"
-		}
 	],
 	"settings": {
 		"files.associations": {

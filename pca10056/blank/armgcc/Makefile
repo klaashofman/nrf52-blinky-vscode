@@ -2,8 +2,9 @@ PROJECT_NAME     := blinky_pca10056
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := _build
 
-SDK_ROOT := /opt/nordic/nRF5_SDK_17.1.0_ddde560/
-PROJ_DIR := ../../..
+SDK_ROOT 			:= /opt/nRF5_SDK_17.1.0_ddde560/
+GNU_INSTALL_ROOT 	:= /opt/gcc-arm-none-eabi-9-2019-q4-major/bin/
+PROJ_DIR 			:= ../../..
 
 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
   LINKER_SCRIPT  := blinky_gcc_nrf52.ld

@@ -1,2 +1,8 @@
-export GNU_GCC="/Applications/ARM"
-export nRF_SDK="/Users/klaashofman/Development/Rimshot/sandbox/nrf52/nRF5_SDK_17.1.0_ddde560"
+# location of gcc, needed for vscode c_cpp plugin:
+export GNU_GCC="/opt/gcc-arm-none-eabi-9-2019-q4-major"
+
+# location of Nordic SDK
+export nRF_SDK="/opt/nRF5_SDK_17.1.0_ddde560"
+
+# append PATH with location of JLinkGDBServer 
+export PATH=$PATH:/opt/SEGGER/JLink

@@ -15,7 +15,7 @@
             "runToEntryPoint": "main",
             "showDevDebugOutput": "raw",
             "servertype": "jlink",
-            "armToolchainPath": "/Applications/ARM/bin/"
+            "armToolchainPath": "${env:GNU_GCC}/bin"
         }
 
     ]
